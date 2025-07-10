@@ -1,4 +1,4 @@
-package org.asafonov.t-rex;
+package org.asafonov.trex;
 
 import android.content.Intent;
 import android.net.Uri;
