@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name="org.asafonov.t-rex.MainActivity"
+            android:name="org.asafonov.trex.MainActivity"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen"
             android:label="@string/app_name"
             android:exported="true"
