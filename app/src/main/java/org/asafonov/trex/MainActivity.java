@@ -1,4 +1,4 @@
-package org.asafonov.t-rex;
+package org.asafonov.trex;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
