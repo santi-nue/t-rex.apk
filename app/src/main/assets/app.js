@@ -5,12 +5,16 @@ document.addEventListener('DOMContentLoaded', function() {
     let gravity = 0.9;
     let isJumping = false;
     let isGameOver = false;
-    const button = document.getElementById('actionButton');
-
-    button.addEventListener('click', function() {
+    
+    document.getElementById('rightButton').addEventListener('click', function() {   
        if(!isJumping) {
                 jump()
         }      
+    });
+
+    document.getElementById('leftButton').addEventListener('click', function() {
+        alert.innerHTML = '' ;
+       isGameOver = false;  
     });
 
     
