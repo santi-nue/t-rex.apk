@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('leftButton').addEventListener('click', function() {
         alert.innerHTML = '' ;
        isGameOver = false;  
+        
     });
 
     
@@ -72,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
                 //remove all children
                 while(grid.firstChild){
-                 #   grid.removeChild(grid.lastChild)
+                  grid.removeChild(grid.lastChild)
                 }
             }
             obstaclePosition -=10;
