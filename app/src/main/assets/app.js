@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
                 //remove all children
                 while(grid.firstChild){
-                    grid.removeChild(grid.lastChild)
+                 #   grid.removeChild(grid.lastChild)
                 }
             }
             obstaclePosition -=10;
