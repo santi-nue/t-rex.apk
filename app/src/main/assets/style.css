@@ -31,3 +31,30 @@
     position: absolute;
     bottom: 0;
 }
+
+
+#actionButton {
+  background-color: #4CAF50; /* green background */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px #3e8e41;
+  transition: all 0.2s ease;
+  position: fixed;    /* fixed at screen corner */
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#actionButton:hover {
+  background-color: #45a049;
+  box-shadow: 0 6px #367a3e;
+}
+
+#actionButton:active {
+  box-shadow: 0 2px #2f6d30;
+  transform: translateY(2px);
+}
