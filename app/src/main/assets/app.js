@@ -5,7 +5,15 @@ document.addEventListener('DOMContentLoaded', function() {
     let gravity = 0.9;
     let isJumping = false;
     let isGameOver = false;
+    const button = document.getElementById('actionButton');
 
+    button.addEventListener('click', function() {
+       if(!isJumping) {
+                jump()
+        }      
+    });
+
+    
     function control(e){
         if(e.code === "Space") {
             if(!isJumping) {
