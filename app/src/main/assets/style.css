@@ -32,29 +32,41 @@
     bottom: 0;
 }
 
-
-#actionButton {
-  background-color: #4CAF50; /* green background */
+#leftButton {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 12px 24px;
+  background-color: #2196F3; /* blue */
   color: white;
   border: none;
-  padding: 12px 24px;
-  font-size: 16px;
   border-radius: 8px;
   cursor: pointer;
-  box-shadow: 0 4px #3e8e41;
-  transition: all 0.2s ease;
-  position: fixed;    /* fixed at screen corner */
-  top: 20px;
-  right: 20px;
+  box-shadow: 0 4px #1769aa;
+  transition: background-color 0.2s ease;
   z-index: 1000;
 }
 
-#actionButton:hover {
-  background-color: #45a049;
-  box-shadow: 0 6px #367a3e;
+#leftButton:hover {
+  background-color: #187bcd;
 }
 
-#actionButton:active {
-  box-shadow: 0 2px #2f6d30;
-  transform: translateY(2px);
+#rightButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 24px;
+  background-color: #4CAF50; /* green */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px #3e8e41;
+  transition: background-color 0.2s ease;
+  z-index: 1000;
 }
+
+#rightButton:hover {
+  background-color: #45a049;
+}
+
